@@ -1,0 +1,28 @@
+
+|----index.html---------------------------------------------|
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hipster Logo</title>
+    <link href="app.css">
+</head>
+<body>
+    <h1>Purple Grain</h1>
+</body>
+</html>
+|-----------------------------------------------------------|
+
+|--------------------app.css---------------------------------|
+
+h1
+{
+    font-family: Monospace;
+    text-align: center;
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 20px;
+    text-decoration: underline wavy plum;
+    text-transform: uppercase;
+}
+
+|---------------------------------------------------------------|

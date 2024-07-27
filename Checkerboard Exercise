@@ -1,0 +1,84 @@
+|-------------index.html--------------------------------------|
+
+<!--DON'T TOUCH ANYTHING IN THIS FILE!-->
+<!doctype html>
+
+<html>
+<head>
+
+  <title>Checkerboard</title>
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+    <!--DON'T TOUCH ANYTHING IN THIS FILE!-->
+    <div id="board">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+    </div>
+</body>
+</html>
+
+|---------------------------------------------------------------------------|
+
+
+|--------------------no_touching.css----------------------------------------|
+
+/* DO NOT TOUCH THIS FILE!!!  */
+.square {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+/* DO NOT TOUCH THIS FILE!!!  */
+/* THIS CODE WILL MAKE SENSE ONCE WE COVER FLEXBOX!  */
+#board {
+  display: flex;
+  margin: 0 auto;
+  width: 500px;
+  flex-wrap: wrap;
+}
+/* DO NOT TOUCH THIS FILE!!!  */
+
+|-----------------------------------------------------------------------------|
+
+
+|---------------------app.css--------------------------------------------------|
+
+/* WRITE YOUR CODE IN HERE!!!!  */
+.square:nth-child(odd)
+{
+    background-color: red;
+}
+
+.square:nth-child(even)
+{
+    background-color: black;
+}
+
+|--------------------------------------------------------------------------------|
